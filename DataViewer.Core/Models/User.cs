@@ -20,11 +20,11 @@ namespace DataReader.Core.Models
       UserType = shell.userType;
     }
 
-    public DataReaderGuid UserSK { get; }
-    public DataReaderGuid UserId { get; }
+    public CustomGuid UserSK { get; }
+    public CustomGuid UserId { get; }
     public UserName UserName { get; }
     public UserEmail UserEmail { get; }
-    public AnalyticsUpdatedDate AnalyticsUpdatedDate { get; }
+    public CustomDate AnalyticsUpdatedDate { get; }
     public string GitHubUserId { get; } = string.Empty;
     public string UserType { get; } = string.Empty;
 

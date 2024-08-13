@@ -5,32 +5,32 @@ using System.Text.RegularExpressions;
 
 namespace DataReader.Core.ValueObjects.Common
 {
-  public class DataReaderGuid : ValueObject
+  public class CustomGuid : ValueObject
   {
     private const string REGEX_FOR_GUID = @"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$";
-    public Guid? CustomGuid { get; }
+    public Guid? Guid { get; }
 
-    private DataReaderGuid(Guid? customGuid)
+    private CustomGuid(Guid? Guid)
     {
-      CustomGuid = customGuid;
+      this.Guid = Guid;
     }
 
-    public static Result<DataReaderGuid> Create(string customGuid)
+    public static Result<CustomGuid> Create(string customGuid)
     {
       if (!string.IsNullOrEmpty(customGuid))
       {
         if (!Regex.IsMatch(customGuid, REGEX_FOR_GUID))
         {
-          return Result.Failure<DataReaderGuid>($"'{nameof(customGuid)}' must be Guid");
+          return Result.Failure<CustomGuid>($"'{nameof(customGuid)}' must be Guid");
         }
       }
 
-      return new DataReaderGuid(!string.IsNullOrEmpty(customGuid) ? new Guid(customGuid) : null);
+      return new CustomGuid(!string.IsNullOrEmpty(customGuid) ? new Guid(customGuid) : null);
     }
 
     protected override IEnumerable<IComparable?> GetEqualityComponents()
     {
-      yield return CustomGuid;
+      yield return Guid;
     }
   }
 }

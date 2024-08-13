@@ -60,21 +60,21 @@ namespace DataReader.Core.Models
     }
 
     public int WorkItemId { get; }
-    public AnalyticsUpdatedDate InProgressDate { get; }
-    public AnalyticsUpdatedDate CompletedDate { get; }
+    public CustomDate InProgressDate { get; }
+    public CustomDate CompletedDate { get; }
     public string? InProgressDateSK { get; }
     public string? CompletedDateSK { get; }
-    public AnalyticsUpdatedDate AnalyticsUpdatedDate { get; }
-    public DataReaderGuid ProjectSK { get; } // foreign key Project
+    public CustomDate AnalyticsUpdatedDate { get; }
+    public CustomGuid ProjectSK { get; } // foreign key Project
     public int? WorkItemRevisionSK { get; }
-    public DataReaderGuid AreaSK { get; } // понадобятся в будущем
-    public DataReaderGuid IterationSK { get; } // понадобятся в будущем
-    public DataReaderGuid AssignedToUserSK { get; } // foreign key Users
-    public DataReaderGuid ChangedByUserSK { get; } // foreign key Users
-    public DataReaderGuid CreatedByUserSK { get; } // foreign key Users
-    public DataReaderGuid ActivatedByUserSK { get; } // foreign key Users
-    public DataReaderGuid ClosedByUserSK { get; } // foreign key Users
-    public DataReaderGuid ResolvedByUserSK { get; } // foreign key Users
+    public CustomGuid AreaSK { get; } // понадобятся в будущем
+    public CustomGuid IterationSK { get; } // понадобятся в будущем
+    public CustomGuid AssignedToUserSK { get; } // foreign key Users
+    public CustomGuid ChangedByUserSK { get; } // foreign key Users
+    public CustomGuid CreatedByUserSK { get; } // foreign key Users
+    public CustomGuid ActivatedByUserSK { get; } // foreign key Users
+    public CustomGuid ClosedByUserSK { get; } // foreign key Users
+    public CustomGuid ResolvedByUserSK { get; } // foreign key Users
     public string? ActivatedDateSK { get; }
     public string? ChangedDateSK { get; }
     public string? ClosedDateSK { get; }
@@ -82,16 +82,16 @@ namespace DataReader.Core.Models
     public string? ResolvedDateSK { get; }
     public string? StateChangeDateSK { get; }
     public string? WorkItemType { get; }
-    public AnalyticsUpdatedDate ChangedDate { get; }
-    public AnalyticsUpdatedDate CreatedDate { get; }
+    public CustomDate ChangedDate { get; }
+    public CustomDate CreatedDate { get; }
     public string? State { get; }
-    public AnalyticsUpdatedDate ActivatedDate { get; }
-    public AnalyticsUpdatedDate ClosedDate { get; }
+    public CustomDate ActivatedDate { get; }
+    public CustomDate ClosedDate { get; }
     public int? Priority { get; }
-    public AnalyticsUpdatedDate ResolvedDate { get; }
+    public CustomDate ResolvedDate { get; }
     public double? CompletedWork { get; }
     public string? Effort { get; }
-    public AnalyticsUpdatedDate FinishDate { get; }
+    public CustomDate FinishDate { get; }
     public string? OriginalEstimate { get; }
     public string? RemainingWork { get; }
     public string? StartDate { get; }
@@ -99,7 +99,7 @@ namespace DataReader.Core.Models
     public string? TargetDate { get; }
     public int? ParentWorkItemId { get; }
     public string? TagNames { get; }
-    public AnalyticsUpdatedDate StateChangeDate { get; }
+    public CustomDate StateChangeDate { get; }
     public string? Custom_719f69f1__002Df7d0__002D4baa__002Db6ce__002De77ad5dfcdf3 { get; }
     public string? Custom_Company { get; }
     public string? Custom_Eksternareferenca { get; }

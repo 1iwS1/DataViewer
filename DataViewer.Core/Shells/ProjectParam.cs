@@ -5,10 +5,10 @@ using DataReader.Core.ValueObjects.Common;
 namespace DataReader.Core.Shells
 {
   public record ProjectParam(
-    DataReaderGuid projectSK,
-    DataReaderGuid projectId,
+    CustomGuid projectSK,
+    CustomGuid projectId,
     ProjectName projectName,
-    AnalyticsUpdatedDate analyticsUpdatedDate,
+    CustomDate analyticsUpdatedDate,
     string projectVisibility
   );
 }

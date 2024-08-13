@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataViewer.Core\DataViewer.Core.csproj" />
+  </ItemGroup>
+
 </Project>

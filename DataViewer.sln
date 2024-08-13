@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewer.Core", "DataViewer.Core\DataViewer.Core.csproj", "{F71993D8-32FF-48F7-AE82-CCDC7BCF5720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataViewer.Core", "DataViewer.Core\DataViewer.Core.csproj", "{F71993D8-32FF-48F7-AE82-CCDC7BCF5720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewer.Application", "DataViewer.Application\DataViewer.Application.csproj", "{8E9916FE-6F8F-4B58-9DE1-ACD7CE12DD46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F71993D8-32FF-48F7-AE82-CCDC7BCF5720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F71993D8-32FF-48F7-AE82-CCDC7BCF5720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F71993D8-32FF-48F7-AE82-CCDC7BCF5720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9916FE-6F8F-4B58-9DE1-ACD7CE12DD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9916FE-6F8F-4B58-9DE1-ACD7CE12DD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9916FE-6F8F-4B58-9DE1-ACD7CE12DD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9916FE-6F8F-4B58-9DE1-ACD7CE12DD46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,11 +5,11 @@ using DataReader.Core.ValueObjects.Common;
 namespace DataReader.Core.Shells
 {
   public record UserParam(
-    DataReaderGuid userSK,
-    DataReaderGuid userId,
+    CustomGuid userSK,
+    CustomGuid userId,
     UserName userName,
     UserEmail userEmail,
-    AnalyticsUpdatedDate analyticsUpdatedDate,
+    CustomDate analyticsUpdatedDate,
     string gitHubUserId,
     string userType
   );

@@ -1,0 +1,10 @@
+﻿using DataReader.Core.ValueObjects.Common;
+
+
+namespace DataViewer.Application.Quaries
+{
+  public class WorkItemsPerUserQuery
+  {
+    public required CustomGuid Id { get; set; }
+  }
+}
