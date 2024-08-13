@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewer.API", "DataViewe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewer.Core", "DataViewer.Core\DataViewer.Core.csproj", "{37D7A550-3BAE-44EE-A0CF-D2E7A0DFDD66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewer.Application", "DataViewer.Application\DataViewer.Application.csproj", "{E3B6DAEA-2D78-48CB-BE6E-448491CE3AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewer.DataAccess", "DataViewer.DataAccess\DataViewer.DataAccess.csproj", "{C67E0AF2-0876-43B5-8B8C-85B47A8E98B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{37D7A550-3BAE-44EE-A0CF-D2E7A0DFDD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37D7A550-3BAE-44EE-A0CF-D2E7A0DFDD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37D7A550-3BAE-44EE-A0CF-D2E7A0DFDD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B6DAEA-2D78-48CB-BE6E-448491CE3AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B6DAEA-2D78-48CB-BE6E-448491CE3AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B6DAEA-2D78-48CB-BE6E-448491CE3AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B6DAEA-2D78-48CB-BE6E-448491CE3AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67E0AF2-0876-43B5-8B8C-85B47A8E98B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67E0AF2-0876-43B5-8B8C-85B47A8E98B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67E0AF2-0876-43B5-8B8C-85B47A8E98B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67E0AF2-0876-43B5-8B8C-85B47A8E98B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
