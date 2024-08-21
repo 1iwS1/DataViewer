@@ -1,10 +1,9 @@
 ﻿using CSharpFunctionalExtensions;
+using DataViewer.Core.Shells;
+using DataViewer.Core.ValueObjects.Common;
 
-using DataReader.Core.Shells;
-using DataReader.Core.ValueObjects.Common;
 
-
-namespace DataReader.Core.Models
+namespace DataViewer.Core.Models
 {
   public class WorkItem
   {

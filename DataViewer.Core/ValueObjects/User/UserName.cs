@@ -1,8 +1,8 @@
 ﻿using CSharpFunctionalExtensions;
-using System.Text.RegularExpressions;
+//using System.Text.RegularExpressions;
 
 
-namespace DataReader.Core.ValueObjects.User
+namespace DataViewer.Core.ValueObjects.User
 {
   public class UserName : ValueObject
   {

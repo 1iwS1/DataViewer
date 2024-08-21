@@ -1,11 +1,10 @@
 ﻿using CSharpFunctionalExtensions;
+using DataViewer.Core.Shells;
+using DataViewer.Core.ValueObjects.Common;
+using DataViewer.Core.ValueObjects.Project;
 
-using DataReader.Core.Shells;
-using DataReader.Core.ValueObjects.Common;
-using DataReader.Core.ValueObjects.Project;
 
-
-namespace DataReader.Core.Models
+namespace DataViewer.Core.Models
 {
   public class Project
   {

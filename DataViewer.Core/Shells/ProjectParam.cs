@@ -1,8 +1,8 @@
-﻿using DataReader.Core.ValueObjects.Project;
-using DataReader.Core.ValueObjects.Common;
+﻿using DataViewer.Core.ValueObjects.Common;
+using DataViewer.Core.ValueObjects.Project;
 
 
-namespace DataReader.Core.Shells
+namespace DataViewer.Core.Shells
 {
   public record ProjectParam(
     CustomGuid projectSK,

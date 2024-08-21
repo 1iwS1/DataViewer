@@ -1,11 +1,10 @@
 ﻿using CSharpFunctionalExtensions;
+using DataViewer.Core.Shells;
+using DataViewer.Core.ValueObjects.Common;
+using DataViewer.Core.ValueObjects.User;
 
-using DataReader.Core.Shells;
-using DataReader.Core.ValueObjects.Common;
-using DataReader.Core.ValueObjects.User;
 
-
-namespace DataReader.Core.Models
+namespace DataViewer.Core.Models
 {
   public class User
   {

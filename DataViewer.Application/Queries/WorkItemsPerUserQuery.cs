@@ -1,4 +1,4 @@
-﻿using DataReader.Core.ValueObjects.Common;
+﻿using DataViewer.Core.ValueObjects.Common;
 
 
 namespace DataViewer.Application.Quaries

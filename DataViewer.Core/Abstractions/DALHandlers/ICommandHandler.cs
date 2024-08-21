@@ -1,4 +1,4 @@
-﻿namespace DataReader.Core.Abstractions.DALHandlers
+﻿namespace DataViewer.Core.Abstractions.DALHandlers
 {
   public interface ICommandHandler<TResult, TCommand>
   {

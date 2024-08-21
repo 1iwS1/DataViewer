@@ -1,10 +1,10 @@
-﻿using CSharpFunctionalExtensions;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
+using CSharpFunctionalExtensions;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
 
-namespace DataReader.Core.ValueObjects.Common
+namespace DataViewer.Core.ValueObjects.Common
 {
   public class CustomDate : ValueObject
   {
