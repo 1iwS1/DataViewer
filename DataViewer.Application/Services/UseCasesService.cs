@@ -19,27 +19,27 @@ namespace DataViewer.Application.Services
 
     public async Task<IList<User>> GetAllUsers()
     {
-
+      throw new NotImplementedException();
     }
 
     public async Task<IList<Project>> GetAllProjects()
     {
-
+      throw new NotImplementedException();
     }
 
     public async Task<IList<WorkItem>> WorkItemsPerProject()
     {
-
+      throw new NotImplementedException();
     }
 
     public async Task<IList<WorkItem>> WorkItemsEstimatePerProject()
     {
-
+      throw new NotImplementedException();
     }
 
     public async Task<IList<WorkItem>> WorkItemsPerUser()
     {
-
+      throw new NotImplementedException();
     }
   }
 }
