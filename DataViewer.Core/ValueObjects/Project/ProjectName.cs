@@ -1,6 +1,7 @@
 ﻿using CSharpFunctionalExtensions;
 
-namespace DataReader.Core.ValueObjects.Project
+
+namespace DataViewer.Core.ValueObjects.Project
 {
   public class ProjectName : ValueObject
   {

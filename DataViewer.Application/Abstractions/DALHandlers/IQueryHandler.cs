@@ -1,4 +1,4 @@
-﻿namespace DataReader.Core.Abstractions.DALHandlers
+﻿namespace DataViewer.Application.Abstractions.DALHandlers
 {
   public interface IQueryHandler<TResult, TQuery>
   {

@@ -1,15 +1,15 @@
-﻿using DataReader.Core.ValueObjects.User;
-using DataReader.Core.ValueObjects.Common;
+﻿using DataViewer.Core.ValueObjects.Common;
+using DataViewer.Core.ValueObjects.User;
 
 
-namespace DataReader.Core.Shells
+namespace DataViewer.Core.Shells
 {
   public record UserParam(
-    DataReaderGuid userSK,
-    DataReaderGuid userId,
+    CustomGuid userSK,
+    CustomGuid userId,
     UserName userName,
     UserEmail userEmail,
-    AnalyticsUpdatedDate analyticsUpdatedDate,
+    CustomDate analyticsUpdatedDate,
     string gitHubUserId,
     string userType
   );

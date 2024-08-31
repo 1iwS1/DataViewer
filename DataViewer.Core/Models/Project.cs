@@ -1,11 +1,10 @@
 ﻿using CSharpFunctionalExtensions;
+using DataViewer.Core.Shells;
+using DataViewer.Core.ValueObjects.Common;
+using DataViewer.Core.ValueObjects.Project;
 
-using DataReader.Core.Shells;
-using DataReader.Core.ValueObjects.Common;
-using DataReader.Core.ValueObjects.Project;
 
-
-namespace DataReader.Core.Models
+namespace DataViewer.Core.Models
 {
   public class Project
   {
@@ -18,10 +17,10 @@ namespace DataReader.Core.Models
       ProjectVisibility = shell.projectVisibility;
     }
 
-    public DataReaderGuid ProjectSK { get; }
-    public DataReaderGuid ProjectID { get; }
+    public CustomGuid ProjectSK { get; }
+    public CustomGuid ProjectID { get; }
     public ProjectName ProjectName { get; }
-    public AnalyticsUpdatedDate AnalyticsUpdatedDate { get; }
+    public CustomDate AnalyticsUpdatedDate { get; }
     public string ProjectVisibility { get; } = string.Empty;
 
     public static Result<Project> Create(ProjectParam shell)
