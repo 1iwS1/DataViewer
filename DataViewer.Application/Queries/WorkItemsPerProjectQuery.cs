@@ -3,7 +3,7 @@
 
 namespace DataViewer.Application.Quaries
 {
-  public class WorkItemPerProjectQuery
+  public class WorkItemsPerProjectQuery
   {
     public required CustomGuid Id { get; set; }
   }
