@@ -1,7 +1,7 @@
 ﻿using DataViewer.Core.Models;
 
 
-namespace DataViewer.Core.Abstractions.Services
+namespace DataViewer.Application.Abstractions.Services
 {
   public interface IUseCasesService
   {

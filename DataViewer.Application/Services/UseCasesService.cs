@@ -1,9 +1,9 @@
 ﻿using CSharpFunctionalExtensions;
 
-using DataViewer.Application.Quaries;
-using DataViewer.Core.Abstractions.Services;
-using DataViewer.Core.Abstractions.DALHandlers;
 using DataViewer.Core.Models;
+using DataViewer.Application.Quaries;
+using DataViewer.Application.Abstractions.Services;
+using DataViewer.Application.Abstractions.DALHandlers;
 
 
 namespace DataViewer.Application.Services
