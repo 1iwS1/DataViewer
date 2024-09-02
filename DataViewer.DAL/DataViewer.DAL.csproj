@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataViewer.Application\DataViewer.Application.csproj" />
+    <ProjectReference Include="..\DataViewer.Core\DataViewer.Core.csproj" />
+  </ItemGroup>
+
 </Project>

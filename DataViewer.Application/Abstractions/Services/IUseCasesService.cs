@@ -1,4 +1,6 @@
-﻿using DataViewer.Core.Models;
+﻿using CSharpFunctionalExtensions;
+
+using DataViewer.Core.Models;
 
 
 namespace DataViewer.Application.Abstractions.Services
@@ -6,7 +8,7 @@ namespace DataViewer.Application.Abstractions.Services
   public interface IUseCasesService
   {
     Task<IList<Project>> GetAllProjects();
-    Task<IList<User>> GetAllUsers();
+    Task<Result> GetAllUsers();
     Task<IList<WorkItem>> WorkItemsEstimatePerProject();
     Task<IList<WorkItem>> WorkItemsPerProject();
     Task<IList<WorkItem>> WorkItemsPerUser();
