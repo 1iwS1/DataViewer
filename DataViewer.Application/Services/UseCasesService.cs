@@ -10,17 +10,15 @@ namespace DataViewer.Application.Services
 {
   public class UseCasesService : IUseCasesService
   {
-    private readonly IQueryHandler<Task<Result>, AllUsersQuery> _getAllUsersQuery;
+    private readonly IQueryHandler<Task<Result<List<User>>>, AllUsersQuery> _getAllUsersQuery;
 
-    public UseCasesService(IQueryHandler<Task<Result>, AllUsersQuery> getAllUsersQuery)
+    public UseCasesService(IQueryHandler<Task<Result<List<User>>>, AllUsersQuery> getAllUsersQuery)
     {
       _getAllUsersQuery = getAllUsersQuery;
     }
 
-    public async Task<Result> GetAllUsers()
+    public async Task<Result<List<User>>> GetAllUsers(AllUsersQuery query)
     {
-      AllUsersQuery query = new();
-
       return await _getAllUsersQuery.Handle(query);
     }
 

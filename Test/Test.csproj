@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataViewer.Application\DataViewer.Application.csproj" />
+    <ProjectReference Include="..\DataViewer.Core\DataViewer.Core.csproj" />
+    <ProjectReference Include="..\DataViewer.DAL\DataViewer.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
